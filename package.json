@@ -19,7 +19,8 @@
     "gql:mock": "amplify mock api",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "upgrade": "npx react-native upgrade"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.0",
