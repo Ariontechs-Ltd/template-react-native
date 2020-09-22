@@ -2,9 +2,17 @@
  * @format
  */
 
+import React from 'react'
 import {AppRegistry} from 'react-native';
 import App from './src/pages/App';
 import {name as appName} from './app.json';
-import './src/config/ReactotronConfig';
+import GlobalStateProvider from './src/contexts/GlobalStateProvider'
+import './src/config/ReactotronConfig'
 
-AppRegistry.registerComponent(appName, () => App);
+const Main = () => (
+    <GlobalStateProvider>
+        <App />
+    </GlobalStateProvider>
+)
+
+AppRegistry.registerComponent(appName, () => Main);
