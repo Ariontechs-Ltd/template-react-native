@@ -2,3 +2,14 @@
 
 這是我自己依照自己的需求組合: hooks, context, reducer, react-navigation, i18ln 等建立的 APP 樣版
 
+
+## package dependencies
+
+### normal
+
+- @react-native-community/async-storage
+
+
+### dev
+
+- reactotron-react-native
