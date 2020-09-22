@@ -3,7 +3,7 @@ import {
     View,
     Text,
 } from 'react-native'
-import styles from './styles/TemplateContainerStyles'
+import styles from './styles/TemplatePageStyles'
 import useTemplate from '../hooks/useTemplate'
 
 export default () => {
