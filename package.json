@@ -20,7 +20,8 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "upgrade": "npx react-native upgrade"
+    "upgrade": "npx react-native upgrade",
+    "generate:page": "sh ./src/scripts/GeneratePage.sh"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.0",
