@@ -5,6 +5,7 @@ import {
 } from 'react-native'
 import styles from './styles/TemplatePageStyles'
 import useTemplate from '../hooks/useTemplate'
+import {t} from '../translations'
 
 export default () => {
 
@@ -12,7 +13,7 @@ export default () => {
 
     return (
         <View style={styles.container}>
-            <Text>Template</Text>
+            <Text>{t('hello', {name: 'Template'})}</Text>
         </View>
     )
 }

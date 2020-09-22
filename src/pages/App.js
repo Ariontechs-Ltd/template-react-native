@@ -8,6 +8,8 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 
+import {setI18nConfig} from '../translations'
+
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
@@ -19,6 +21,11 @@ const Stack = createStackNavigator()
 const Tab = createBottomTabNavigator()
 
 const App = () => {
+
+  React.useEffect(() => {
+    setI18nConfig()
+  }, [])
+
   return (
     <NavigationContainer>
       <Stack.Navigator>
