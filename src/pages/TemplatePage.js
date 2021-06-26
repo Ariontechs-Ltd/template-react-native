@@ -2,6 +2,8 @@ import React from 'react'
 import { 
     View,
     Text,
+    Button,
+    ActivityIndicator,
 } from 'react-native'
 import styles from './styles/TemplatePageStyles'
 import useTemplate from '../hooks/useTemplate'
@@ -13,7 +15,14 @@ export default () => {
 
     return (
         <View style={styles.container}>
-            <Text>{t('hello', {name: 'Template'})}</Text>
+            <Text>HELLO</Text>
+
+            <Button title="ClickME" onPress={actions.onPressMe} />
+            <ActivityIndicator size='large' color="#0000ff" animating={state.fetching} />
+            {
+                state.data?.map(v => <Text key={v.id}>{v.author}</Text>)
+            }
+            {/* <Text>{}</Text> */}
         </View>
     )
 }
