@@ -210,11 +210,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				D63A02F1A8D440FDE48CCD47 /* [CP] Copy Pods Resources */,
-<<<<<<< HEAD
-				3FC389897FC5F243EDD294D8 /* [CP] Embed Pods Frameworks */,
-=======
 				FE2BE8601225A0DC2ABD3015 /* [CP] Embed Pods Frameworks */,
->>>>>>> 52d002da05e5ff450d274108ab72674910d9720e
 			);
 			buildRules = (
 			);
@@ -237,11 +233,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				9A0706BE9CAD52B16A7C16F4 /* [CP] Copy Pods Resources */,
-<<<<<<< HEAD
-				EDFB553A5B7BA5F1A9F5BC87 /* [CP] Embed Pods Frameworks */,
-=======
 				1E2B24C4DD85EFBD9E044673 /* [CP] Embed Pods Frameworks */,
->>>>>>> 52d002da05e5ff450d274108ab72674910d9720e
 			);
 			buildRules = (
 			);
